@@ -1,0 +1,22 @@
+
+body {
+    margin: 50px auto; 
+    max-width: 900px;
+    font-family: 'Helvetica', 'Droid Sans', 'Arial', sans-serif;
+    background-color: #e3e3e3;
+}
+
+.lista {
+    display: inline-block;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #f4f4f4;
+    vertical-align: top;
+}
+
+.tarea.terminada {
+    text-decoration: line-through;
+}
