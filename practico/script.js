@@ -33,12 +33,13 @@ const inputListas = document.getElementById('input-listas');
 
 // Agregamos un evento de tecla oprimida o 'keydown'
 inputListas.addEventListener('keydown', (evento) => {
-  const {keyCode, target: {value}} = evento;
-  // keyCode contiene un código de la tecla apretada
-  // value contiene el valor dentro del input al oprimir la tecla
+  const codigo_tecla = evento.keyCode;
+  const valor_texto = evento.target.value;
+  // codigo_tecla contiene un código de la tecla apretada
+  // valor_texto contiene el valor dentro del input al oprimir la tecla
 
-  if (keyCode === 13) { // el código 13 es para la tecla enter
-    const nuevaLista = {titulo: value, tareas: []};
+  if (codigo_tecla === 13) { // el código 13 es para la tecla enter
+    const nuevaLista = {titulo: valor_texto, tareas: []};
     agregarNodoLista(nuevaLista);
   }
 });

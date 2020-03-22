@@ -3,6 +3,9 @@ const numero = 1005;
 const curso = 'Computación: Ciencia y ...';
 let hora = 10;
 hora = 11; // Con let, puedo editar el valor.
+
+// console.log(curso);
+
 // La siguente línea arroja un error, descomentar para ver.
 // numero = 1006;
 // Una constante, ¡debería ser constante!
@@ -47,15 +50,11 @@ hora = 11; // Con let, puedo editar el valor.
 // console.log(`Último elemento: ${ultimoElemento}`);
 // const segundoYTercero = listaDePi.slice(1, 3);
 // console.log(`Segundo y tercer elemento: ${segundoYTercero}`);
-// const terceroEnAdelante = listaDePi.slice(2);
-// console.log(`Tercer elemento en adelante: ${terceroEnAdelante}`);
-// const ultimosDos = listaDePi.slice(-2);
-// console.log(`Últimos dos elementos: ${ultimosDos}`);
 
 // // for loops
 
-// for (let index = 0; index < largoLista; index ++) {
-//   console.log(listaDePi[index]);
+// for (let i = 0; i < largoLista; i ++) {
+//   console.log(listaDePi[i]);
 // }
 
 // for (const numero of listaDePi) {
@@ -82,23 +81,6 @@ hora = 11; // Con let, puedo editar el valor.
 // for (const propiedad in profesor) {
 //   console.log(`${propiedad}: ${profesor[propiedad]}`);
 // }
-
-// // destructuring
-
-// const tecs = ['HTML', 'CSS', 'JS'];
-// const [tec1, tec2, tec3] = tecs;
-// console.log(tec3);
-
-// const [primer, ...resto] = tecs;
-// console.log(resto);
-
-// const profeDeHoy = {
-//   nombre: 'Fernando',
-//   apellido: 'Florenzano',
-//   cursos: 1
-// };
-// const {nombre, apellido} = profeDeHoy;
-// console.log(nombre);
 
 // // functions
 
